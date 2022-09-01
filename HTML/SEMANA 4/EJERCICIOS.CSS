@@ -27,7 +27,7 @@ nav{
     border-radius: 22px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 padding: 5px;
 margin: 5px;
@@ -107,4 +107,3 @@ footer{
     color: darkblue;
 
 }
-
