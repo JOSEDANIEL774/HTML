@@ -79,6 +79,11 @@ a{
     max-width:100%;
     height: auto;
 }
+#menu ul li a:hover{
+    background: lightcoral;
+    color:black;
+
+}
 figure,figcaption{
     display: inline;
     margin: 45px;

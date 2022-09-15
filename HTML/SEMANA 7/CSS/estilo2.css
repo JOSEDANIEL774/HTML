@@ -8,7 +8,15 @@ body {
     color: white;
   }
   /* a. */
-  
+  #micarrusel,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item.active{
+    height: 70vh;
+  }
+  .carousel-caption{
+    background: rgb(0, 0, 0,0.6);
+  }
   .flip-container {
     background-color: rgb(15, 255, 203);
     width: 100%;
@@ -44,7 +52,6 @@ body {
     overflow: hidden;
     backface-visibility: hidden;
     object-fit: contain;
-     
   }
   
   .flip-box-img {
