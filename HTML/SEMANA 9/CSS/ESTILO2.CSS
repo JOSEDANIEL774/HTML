@@ -1,0 +1,37 @@
+:root{
+    --fondo: rgb(248, 16, 16);
+    --degrad:linear-gradint(90deg,black,red);
+    --font:rgb(0, 0, 0); 
+}
+@font-face{
+    font-family:Saturday Bright;
+    src: url(../fonts/Saturday\ Bright.ttf);
+}
+body {
+    background-color: black;
+    font-family:Saturday Bright;
+    background-color: var(--fondo);
+    background-image: url(../IMG/Zz04NjA3ZjljMjQ0ODkxMWViOWRjYzU1OGJkNjI1ZjVkZA==.gif);
+    color: var(--font);
+  }
+  
+  .navbar-brand {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  #testimonial {
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align:center;
+    margin-top: 40px;
+  }
+  
+  #contact {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+  }
+  
